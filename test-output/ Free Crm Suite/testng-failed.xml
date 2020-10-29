@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ Free Crm Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" Different activities on freecrm.com(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.CreatenewContactPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateCreateNewContact"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CreatenewContactPageTest -->
+    </classes>
+  </test> <!--  Different activities on freecrm.com(failed) -->
+</suite> <!-- Failed suite [ Free Crm Suite] -->
